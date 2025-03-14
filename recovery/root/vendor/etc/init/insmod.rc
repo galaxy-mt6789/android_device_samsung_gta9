@@ -4,3 +4,14 @@ on early-fs
     insmod /vendor/lib/modules/jdchipset.ko
     insmod /vendor/lib/modules/hxchipset.ko
     insmod /vendor/lib/modules/chipone.ko
+    insmod /lib/modules/mtk_panel_ext.ko
+    insmod /lib/modules/panel-bias.ko
+    insmod /lib/modules/lcd_default_mipi_fhd_video.ko
+    insmod /lib/modules/lcd_nl9951_gx_boe_video.ko
+    insmod /lib/modules/lcd_hx83102e_cd_inx_video.ko
+    insmod /lib/modules/lcd_hx83102e_gx_hsd_incell_video.ko
+    insmod /lib/modules/lcd_hx83102e_lc_hkc_video.ko
+    insmod /lib/modules/lcd_hx83102e_xx_inx_video.ko
+    insmod /lib/modules/lcd_jd9366tc_xx_hkc_video.ko
+    insmod /lib/modules/lcd_nt36523d_lc_hsd_video.ko
+    
