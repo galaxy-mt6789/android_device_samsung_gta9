@@ -1,0 +1,6 @@
+on early-fs
+    insmod /vendor/lib/modules/touch_common.ko
+    insmod /vendor/lib/modules/novatek.ko
+    insmod /vendor/lib/modules/jdchipset.ko
+    insmod /vendor/lib/modules/hxchipset.ko
+    insmod /vendor/lib/modules/chipone.ko
