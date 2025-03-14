@@ -18,5 +18,8 @@ TW_DEVICE_VERSION := SavedByLight_gta9
 # Battery correct percentage
 TW_CUSTOM_BATTERY_PATH := /sys/class/power_supply/battery/capacity
 
+# Kernel Modules
+TW_LOAD_VENDOR_MODULES := $(shell echo \"$(shell ls $(DEVICE_PATH)/recovery/root/lib/modules) $(shell ls $(DEVICE_PATH)/recovery/root/vendor/lib/modules)\")
+
 # Inherit from common tree
 include device/samsung/mt6789-common/BoardConfigCommon.mk
